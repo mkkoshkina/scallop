@@ -21,7 +21,7 @@ using namespace std;
 
 int main(int argc, const char **argv)
 {
-	srand(time(0));
+	//srand(time(0));
 
 	if(argc == 1)
 	{
@@ -33,6 +33,7 @@ int main(int argc, const char **argv)
 	}
 
 	parse_arguments(argc, argv);
+	srand(time(seed));
 
 	if(verbose >= 1)
 	{
