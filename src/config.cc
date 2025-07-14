@@ -71,7 +71,7 @@ string ref_file;
 string ref_file1;
 string ref_file2;
 string output_file;
-unsigned int seed;
+unsigned int seed = 0;
 
 // for controling
 bool output_tex_files = false;

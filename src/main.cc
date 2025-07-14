@@ -33,7 +33,7 @@ int main(int argc, const char **argv)
 	}
 
 	parse_arguments(argc, argv);
-	srand(time(seed));
+	srand(seed);
 
 	if(verbose >= 1)
 	{
